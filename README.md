@@ -11,19 +11,19 @@ webserver em python para Windows 10.
   
   obs: troque o caminho em parenteses pelo caminho da pasta de instação do python em seu computador.
   
-  C:\(instalação_python)\Lib\http
+  C:\ (instalação_python)\Lib\http
   
   clique em novo e adicione a nova linha também:
   
-  C:\(instalação_python)\Lib
+  C:\ (instalação_python)\Lib
   
   mais uma nova linha:
   
-  C:\(instalação_python)\
+  C:\ (instalação_python)\
   
   e a ultima linha:
   
-  C:\(instalação_python)\Scripts
+  C:\ (instalação_python)\Scripts
 
 3 - Apos adicionar as linhas do caminho do python dentro do windows agora copie o arquivo servidor.bat para o diretorio raiz "C:\"
 e execute o arquivo servidor.bat. O arquivo servidor.bat ira criar uma pasta chamada webserver, essa pasta será o repositorio de arquivos do servidor web (c:\webserver).  Agora seu servidor web simples já está ativo.
