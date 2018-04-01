@@ -1,41 +1,25 @@
-# webserver
 webserver em python para Windows 10.
 
+1 - Para executar o servidor web √© necess√°rio ter a instala√ß√£o do python 3.6 em seu computador.
 
-1 - Para executar o servidor web È necess·rio ter a instalaÁ„o do python 3.6 em seu computador.
+2 - Adicione os seguintes caminhos dentro das vari√°veis do ambiente do Windows. Para acessar as vari√°veis do ambiente Windows v√° at√© Paniel de controle / Sistemas / configura√ß√µes avan√ßadas de sistema v√° at√© a aba Avan√ßado e clique em Vari√°veis de Ambiente, na grade Vari√°veis de Ambiente encontre a linha Path, clique em editar, v√° no bot√£o novo e adicione a seguinte linha:
 
+obs: troque o caminho em parenteses pelo caminho da pasta de insta√ß√£o do python em seu computador.
 
-2 - Adicione os seguintes caminhos dentro das vari·veis do ambiente do Windows.
-  Para acessar as vari·veis do ambiente Windows v· atÈ 
+C:\ (instala√ß√£o_python)\Lib\http
 
-Paniel de controle / Sistemas /  configuraÁıes avanÁadas de sistema v·
-  atÈ a aba AvanÁado e clique em Vari·veis de Ambiente, na tela Vari·veis de Ambiente encontre 
+clique em novo e adicione a nova linha tamb√©m:
 
-a linha Path, clique em editar,
-  v· no bot„o novo e adicione a seguinte linha:
-  C:\Users\Daniel\AppData\Local\Programs\Python\Python36-32\Lib\http
-  
-
-clique em novo e adicione a nova linha tambÈm:
-  C:\Users\Daniel\AppData\Local\Programs\Python\Python36-32\Lib
-  
+C:\ (instala√ß√£o_python)\Lib
 
 mais uma nova linha:
-  C:\Users\Daniel\AppData\Local\Programs\Python\Python36-32\
-  
+
+C:\ (instala√ß√£o_python)\
 
 e a ultima linha:
-  C:\Users\Daniel\AppData\Local\Programs\Python\Python36-32\Scripts
 
-3 - 
+C:\ (instala√ß√£o_python)\Scripts
 
-Apos adicionar as linhas do caminho do python dentro do windows agora copie o arquivo servido.bat para o diretorio raiz C:\
-e execute o arquivo servidor.bat.
+3 - Apos adicionar as linhas do caminho do python dentro do windows agora copie o arquivo servidor.bat para o diretorio raiz "C:" e execute o arquivo servidor.bat. O arquivo servidor.bat ira criar uma pasta chamada webserver, essa pasta ser√° o repositorio de arquivos do servidor web (c:\webserver). Agora seu servidor web simples j√° est√° ativo.
 
-O arquivo servidor.bat ira criar uma pasta chamada webserver, essa pasta ser· o repositorio de arquivos do servidor web (c:\webserver).  
-
-Agora seu servidor web simples j· est· ativo.
-
-4 - Copie os arquivos do site dentro da pasta c:\webserver, o arquivo index.html ser· automaticamente 
-
-carregado pelo servidor quando requisitado por um cliente(navegador web), caso n„o tenha o arquivo index.html ser· exibido a listagem com os arquivo existente na pasta.
+4 - Copie os arquivos da pagina web para dentro da pasta c:\webserver, o arquivo index.html ser√° automaticamente carregado pelo servidor quando requisitado por um cliente(navegador web), caso n√£o tenha o arquivo index.html ser√° exibido a listagem com os arquivo existente na pasta.
