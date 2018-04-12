@@ -3,7 +3,7 @@
 3 -	Instruções para executar o webserver em python para windows:
 
 	1 – Realize a instalação do Python 3.6. (caso já tiver o python instalado no seu dispositivo pule esta etapa).
-	2 – faça o download do arquivo "servidor_32bits.pyc" ou "servidor_64bits.pyc" dependendo do sistema operacional da sua máquina, o arquivo se encontra dentro do repositório do github https://github.com/danielsilva83/webserver
+	2 – faça o download do arquivo "servidor.pyc", o arquivo se encontra dentro do repositório do github https://github.com/danielsilva83/webserver
 	3 – Copie o arquivo ‘servidor.pyc’ para dentro da pasta que contem a página web a ser exibida e atualize o path de instalação do python nas variáveis de ambientes no windows (caso não tenha marcado opção de atualizar path na instalação do python)
 	4 – Execute o arquivo ‘servidor.pyc’ e após abra o navegador e digite o endereço ipv4 do computador na barra de endereço. Se a pasta em questão conter o arquivo index.html a página será exibida no navegador web, caso não tenha o arquivo index.html será exibida a listagem dos arquivos contidos na página, e em caso de arquivo inexistente será enviado erro 404 arquivo não encontrado.
 
