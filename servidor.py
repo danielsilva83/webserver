@@ -31,8 +31,8 @@ DEFAULT_ERROR_MESSAGE = ""
 DEFAULT_ERROR_CONTENT_TYPE = "text/html;charset=utf-8"
 
 ###############################################################
-#A primeira classe, HTTPServer , é uma subclasse SocketServer.TCPServer e, portanto, implementa a interface SocketServer.BaseServer .
-#Cria e escuta no soquete HTTP, despachando as solicitações para um manipulador
+##A primeira classe, HTTPServer , é uma subclasse SocketServer.TCPServer e, portanto, implementa a interface SocketServer.BaseServer .
+##Cria e escuta no soquete HTTP, despachando as solicitações para um manipulador
 
 class HTTPServer(socketserver.TCPServer):
 
@@ -46,11 +46,11 @@ class HTTPServer(socketserver.TCPServer):
 
 ###############################################################
         
-#A segunda classe é usada para manipular as solicitações HTTP que chegam ao servidor. Por si só, não pode responder a quaisquer solicitações HTTP reais;
-#deve ser subclassificado para lidar com cada método de solicitação (por exemplo, GET ou POST). BaseHTTPRequestHandler fornece um número de variáveis
-#​​de classe e instância e métodos para uso por subclasses.
-#O manipulador analisará a solicitação e os cabeçalhos e, em seguida, chamará um método específico para o tipo de solicitação. O nome do método é construído
-#a partir da solicitação. Por exemplo, para o método de solicitação SPAM , o método do_SPAM() será chamado sem argumentos.
+##A segunda classe é usada para manipular as solicitações HTTP que chegam ao servidor. Por si só, não pode responder a quaisquer solicitações HTTP reais;
+##deve ser subclassificado para lidar com cada método de solicitação (por exemplo, GET ou POST). BaseHTTPRequestHandler fornece um número de variáveis
+##de classe e instância e métodos para uso por subclasses.
+##O manipulador analisará a solicitação e os cabeçalhos e, em seguida, chamará um método específico para o tipo de solicitação. O nome do método é construído
+##a partir da solicitação. Por exemplo, para o método de solicitação SPAM , o método do_SPAM() será chamado sem argumentos.
 
 class BaseHTTPRequestHandler(socketserver.StreamRequestHandler):
 
