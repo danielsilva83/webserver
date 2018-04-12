@@ -14,4 +14,4 @@ Instruções para rodar  o código em python em diversos sistemas operacionais:
 	1.1 - atualize o path de instalação do python nas variáveis de ambientes no windows  (caso não tenha marcado opção de atualizar path na instalação do python)
 	2 - Abra o prompt de comando do windows.
 	3 – vá até a pasta onde se encontra o arquivo ‘servidor.py’
-	4 – digite o seguinte comando no prompt do windows (CMD) para compilar o programa, logo em seguida tecle enter.
+	4 – digite o seguinte comando no prompt do windows (CMD) para compilar o programa, c:\pasta\>python servidor.py logo em seguida tecle enter.
