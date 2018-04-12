@@ -24,8 +24,7 @@ import argparse
 
 from http import HTTPStatus
 
-
-# Default error message template
+#configurando parametro CHARSET HTTP 
 DEFAULT_ERROR_MESSAGE = ""
 
 DEFAULT_ERROR_CONTENT_TYPE = "text/html;charset=utf-8"
@@ -36,7 +35,7 @@ DEFAULT_ERROR_CONTENT_TYPE = "text/html;charset=utf-8"
 
 class HTTPServer(socketserver.TCPServer):
 
-    allow_reuse_address = 1    # Seems to make sense in testing environment
+    allow_reuse_address = 1    
 
     def server_bind(self):
         socketserver.TCPServer.server_bind(self)
